@@ -1,0 +1,12 @@
+.addToCartBtn {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition-duration: 0.1s;
+}
+
+.addToCartBtn:active {
+  scale: 0.95;
+}

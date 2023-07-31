@@ -1,0 +1,28 @@
+.counter {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.counter button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-weight: 550;
+}
+
+.addToCartBtn {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition-duration: 0.1s;
+}
+
+.addToCartBtn:active {
+  scale: 0.95;
+}

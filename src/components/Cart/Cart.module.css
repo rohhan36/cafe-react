@@ -1,0 +1,58 @@
+.cart {
+    background-color: white;
+    width: 450px;
+    padding: 25px;
+    border-radius: 20px;
+    min-height: 250px;
+}
+
+.cartItems {
+    max-height: 20rem;
+    overflow-y: scroll;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.button {
+    color: white;
+    width: 150px;
+    background-color: black;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 50px;
+    transition-duration: 0.1s;
+    font-weight: 600;
+}
+
+.button:active {
+    scale: 0.98;
+}
+
+.cancel {
+    border: solid black 2px;
+    background-color: white;
+    color: black;
+}
+
+.cart p {
+    text-align: center;
+    opacity: 50%;
+}
+
+@media (max-width: 500px) {
+    .cart {
+        width: 370px;
+    }
+
+    .cart p {
+        font-size: 12px;
+    }
+
+    .cart h2 {
+        font-size: 18px;
+    }
+}

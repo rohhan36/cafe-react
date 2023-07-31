@@ -1,0 +1,6 @@
+.foodList {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fit, 280px);
+  margin-bottom: 100px;
+}

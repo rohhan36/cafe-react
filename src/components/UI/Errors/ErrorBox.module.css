@@ -1,0 +1,12 @@
+.errorContainer {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorMsg {
+    color: red;
+}

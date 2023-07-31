@@ -1,0 +1,57 @@
+.iconContainer {
+  display: flex;
+  border: none;
+  position: relative;
+}
+
+.bump {
+  animation: bump 0.3s ease-out;
+}
+
+.cartItemCount {
+  display: flex;
+  justify-content: center;
+  font-size: smaller;
+  border-radius: 50%;
+  background-color: #f84d78;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  height: 20px;
+  width: 20px;
+  color: white;
+}
+
+.cartButton {
+  background-color: #0e0e0e;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.1s;
+}
+
+.cartButton:hover {
+  background-color: rgb(34, 34, 34);
+}
+
+@keyframes bump {
+  0% {
+    scale: 1;
+  }
+  10% {
+    scale: 0.9;
+  }
+  30% {
+    scale: 1.1;
+  }
+  50% {
+    scale: 1.15;
+  }
+  100% {
+    scale: 1;
+  }
+}

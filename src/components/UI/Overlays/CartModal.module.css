@@ -1,0 +1,17 @@
+.backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.cartContainer {
+    position: absolute;
+    top: 15vh;
+    max-height: 20rem;
+}

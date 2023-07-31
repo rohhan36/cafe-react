@@ -1,0 +1,42 @@
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: -10px;
+}
+
+.lable p {
+    margin-top: -20px;
+    font-size: smaller;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.cartItem .cartItemControles button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: 550;
+    transition-duration: 0.1s;
+}
+
+.cartItem .cartItemControles button:active {
+    scale: 0.92;
+}
+
+.cartItemControles {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+@media (max-width: 500px) {
+    .lable h3 {
+        font-size: 15px;
+    }
+}

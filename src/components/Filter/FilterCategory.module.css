@@ -1,0 +1,47 @@
+.filterCategory {
+  background-color: rgb(245, 245, 245);
+  width: 100px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  transition: all 0.3s;
+  color: rgb(165, 165, 165);
+}
+
+.filterCategory img {
+  width: 70px;
+}
+
+.filterCategory h5 {
+  margin-top: 5px;
+}
+
+.filterCategory:hover {
+  color: black;
+  background-color: white;
+  -webkit-box-shadow: 1px 64px 103px -28px rgba(135, 135, 135, 1);
+  -moz-box-shadow: 1px 64px 103px -28px rgba(135, 135, 135, 1);
+  box-shadow: 1px 64px 103px -28px rgba(135, 135, 135, 1);
+}
+
+.filterCategory:focus {
+  color: black;
+  background-color: white;
+  -webkit-box-shadow: 1px 64px 103px -28px rgba(135, 135, 135, 1);
+  -moz-box-shadow: 1px 64px 103px -28px rgba(135, 135, 135, 1);
+  box-shadow: 1px 64px 103px -28px rgba(135, 135, 135, 1);
+}
+
+@media (max-width: 500px) {
+  .filterCategory {
+    width: 80px;
+    height: 120px;
+  }
+
+  .filterCategory img {
+    width: 40px;
+  }
+}

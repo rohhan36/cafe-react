@@ -1,0 +1,19 @@
+.orderPopup {
+  position: fixed;
+  background-color: rgb(0, 170, 0);
+  color: white;
+  text-align: center;
+  top: 10vh;
+  z-index: 999;
+  right: 50vw;
+  transform: translateX(50%);
+  font-size: small;
+  padding: 1px 30px;
+  border-radius: 5px;
+}
+
+@media (max-widhth: 500px) {
+  .orderPopup {
+    padding: 1px 15px;
+  }
+}

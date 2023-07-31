@@ -1,0 +1,72 @@
+.foodItem {
+  position: relative;
+  margin-top: 180px;
+  margin-left: 15px;
+  width: 250px;
+  padding: 20px 25px;
+  border: 2px solid rgb(223, 223, 223);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.foodItem:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.foodItem img {
+  transform: translateX(15px);
+  margin-top: -150px;
+  margin-bottom: -100px;
+  width: 150%;
+}
+
+.foodItem .foodDesc {
+  margin-top: -25px;
+  margin-bottom: -20px;
+  font-size: smaller;
+  color: rgb(194, 194, 194);
+}
+
+.foodPrice {
+  margin-bottom: 0px;
+}
+
+.errorMsg {
+  bottom: -35px;
+  position: absolute;
+  color: red;
+  font-size: 12px;
+}
+
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -800px 0
+  }
+  100% {
+    background-position: 800px 0
+  }
+}
+
+.blurhash{
+  margin-top: -150px;
+  height: 195px;
+  width: 195px;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background-color: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #bbbbbb 18%, #eeeeee 33%);
+  background-size: 850px 200px;
+  position: relative;
+}
+
+
+
+
